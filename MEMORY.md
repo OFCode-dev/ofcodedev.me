@@ -12,6 +12,7 @@ Static GitHub Pages site for Omer Faruk Bayrak (GitHub @OFCode-dev). Personal po
 - `index.html` — homepage. Sections: Hero, Screenshot → Clipboard Family, Featured Work (Quick Web Notepad), How I Think, Capabilities, Contact & Links.
 - `blog/` — blog "Signal & System" (renamed from earlier title 2026-08). `blog/index.html` + one post per subdirectory (e.g. `blog/how-ai-can-confidently-explain-the-wrong-answer/`). Shared `blog/blog.css`.
 - `data/dates.json` — public data endpoint at `/data/dates.json`, published 2026-07-08.
+- `anchor-ssh/` — signed Android review download page. The existing public download is 3.0.1; it is not a public Google Play production release. The owner approved publication of privacy, support and data-deletion sub-pages, matching landing-page links and the app's support address on 2026-10-18. Their shared source is the Anchor SSH app repository's `assets/legal/privacy.json` and `tool/build_legal_pages.py`; keep the app/Play support address consistent. This approval does not include a new APK, Play rollout, cloud service or billing activation.
 - `stitch-screenshot-clipboard/`, `osmanli-turkcesi-klavye-destegi/`, `swiftkey-osmanli-turkcesi/` — standalone campaign/landing sub-sites, each self-contained.
 - `swiftkey-osmanli-turkcesi/index.html` is currently **untracked** (new, not yet committed as of 2026-08-18).
 
