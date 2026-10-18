@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Download the signed Anchor SSH Android review build. A persistent SSH workspace with real terminal emulation and tmux session recovery.">
+  <meta name="theme-color" content="#0b1219">
+  <title>Anchor SSH — A terminal you can return to</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b1219;--panel:#121e29;--ink:#e5eeeb;--muted:#a5b8bb;--mint:#69e5c5;--line:#2a3d45}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--mint);text-underline-offset:5px}a:focus-visible{outline:3px solid var(--mint);outline-offset:5px}header,main,footer{max-width:1120px;margin:auto;padding:24px}header{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line)}header a{text-decoration:none}.brand{font-weight:750;font-size:20px;letter-spacing:-.6px}.brand span{color:var(--mint);margin-right:9px}.home{font-size:14px;color:var(--muted)}.hero{display:grid;grid-template-columns:1.3fr .7fr;align-items:center;gap:65px;padding:70px 0}.badge{display:inline-block;border:1px solid #36574f;border-radius:99px;padding:4px 13px;font-size:12px;letter-spacing:1.2px;font-weight:700;color:var(--mint);text-transform:uppercase}h1{font-size:clamp(40px,6vw,68px);line-height:1.08;letter-spacing:-2.5px;margin:24px 0}h1 span{color:var(--mint)}.lead{font-size:20px;color:var(--muted);max-width:570px}.actions{display:flex;gap:14px;flex-wrap:wrap;margin:30px 0 16px}.button{padding:13px 22px;border-radius:12px;border:1px solid var(--line);font-size:15px;font-weight:700;text-decoration:none}.primary{background:var(--mint);color:#08271f;border-color:var(--mint)}.fine{font-size:13px;color:var(--muted)}figure{margin:0;text-align:center}figure img{display:block;width:100%;max-width:300px;height:auto;margin:auto;border:1px solid var(--line);border-radius:28px;box-shadow:0 20px 70px #0005}figcaption{font-size:12px;margin-top:14px;color:var(--muted)}.notice{border:1px solid var(--line);border-left:3px solid var(--mint);padding:20px 24px;border-radius:12px;background:var(--panel);color:var(--muted)}.notice strong{color:var(--ink)}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin:45px 0 64px}.features article{padding-top:20px;border-top:1px solid var(--line)}h2{font-size:28px;letter-spacing:-.8px;margin:0 0 20px}h3{font-size:18px;margin:0 0 12px}p{margin:0 0 18px}.features p{font-size:15px;color:var(--muted)}section.guide{padding:40px 0;border-top:1px solid var(--line)}li{margin:12px 0;color:var(--muted)}li strong{color:var(--ink)}code{font:14px/1.8 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--panel);padding:3px 7px;border-radius:5px}.hash{display:block;padding:16px;overflow-wrap:anywhere;border:1px solid var(--line)}footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}@media(max-width:720px){.hero{grid-template-columns:1fr;padding:45px 0;gap:36px}.features{grid-template-columns:1fr;gap:14px;margin:35px 0}.hero figure img{max-width:245px}h1{letter-spacing:-1.5px}.actions .button{text-align:center;flex:1 1 200px}.lead{font-size:18px}header,main,footer{padding:20px}.notice{padding:18px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header><a class="brand" href="/anchor-ssh/"><span aria-hidden="true">⚓</span>Anchor SSH</a><a class="home" href="/">By OFCode Dev ↗</a></header>
+  <main>
+    <section class="hero" aria-labelledby="headline">
+      <div>
+        <span class="badge">Android review build</span>
+        <h1 id="headline">A terminal you can<br><span>return to.</span></h1>
+        <p class="lead">Your servers. Your workspace. A real SSH terminal with persistent sessions, thoughtful controls, and credentials protected on your device.</p>
+        <div class="actions"><a class="button primary" href="/downloads/anchor-ssh-3.0.0-review.apk" download>Download Android APK ↓</a><a class="button" href="#install">Installation guide</a></div>
+        <p class="fine">Version 3.0.0 · Android 7.0+ · 59.1 MiB · Signed APK</p>
+      </div>
+      <figure><img src="workspace.png" alt="Anchor SSH Android app showing its dark workspace, host search and session navigation" width="1080" height="1920"><figcaption>Actual Android review build</figcaption></figure>
+    </section>
+    <aside class="notice"><strong>Early access, with clear limits.</strong> This build is for testing and is not a Google Play production release. Purchases, subscriptions, and cloud accounts are disabled. iOS validation is pending. No account is required for local SSH.</aside>
+    <section class="features" aria-label="Features">
+      <article><h3>Keep your session</h3><p>With tmux installed on your server, reconnect to the same remote shell after a network interruption. Server shutdowns and terminated tmux sessions cannot be recovered.</p></article>
+      <article><h3>A proper terminal</h3><p>ANSI/VT emulation, scrollback, monospace type, terminal tabs, command shortcuts, and copy and paste controls.</p></article>
+      <article><h3>Connect directly</h3><p>Password or private-key authentication, host-key checks, Android Keystore protection, and screen capture protection enabled by default.</p></article>
+    </section>
+    <section class="guide" id="install">
+      <h2>Install on Android</h2>
+      <ol>
+        <li>Download the signed APK above on your Android device.</li>
+        <li>Open the file. If Android asks, allow this browser or file manager to install this app. Turn that installation permission off again afterward.</li>
+        <li>Open Anchor SSH and add your host, username, and authentication details. Verify the displayed host-key fingerprint against a trusted source before accepting it.</li>
+        <li>Install <code>tmux</code> on your remote server before using persistent sessions. The app explains when it is missing; an ordinary SSH connection cannot guarantee process survival.</li>
+      </ol>
+      <p class="fine">This download is signed with the developer's current review key. A future Google Play version may use a different app signing key and require uninstalling this review build. Export connection metadata first; credentials must be entered again.</p>
+    </section>
+    <section class="guide" aria-labelledby="integrity">
+      <h2 id="integrity">Check your download</h2>
+      <p>SHA-256 for <code>anchor-ssh-3.0.0-review.apk</code>:</p>
+      <code class="hash">b971a63f3a191234c36f0cae71fd8e363ca9cbda7b594dbe26143c1752036a61</code>
+      <p class="fine">On macOS, compare the output of <code>shasum -a 256 anchor-ssh-3.0.0-review.apk</code> with this value. <a href="/downloads/anchor-ssh-3.0.0-review.apk.sha256">Download checksum</a>.</p>
+    </section>
+    <section class="guide">
+      <h2>Privacy &amp; feedback</h2>
+      <p>SSH connections go directly from the app to your chosen server. This review build has no public cloud backend configured. Connection credentials remain on your device unless you explicitly copy, export, or share information. Terminal logs may contain secrets; review them before sharing.</p>
+      <p>Found a problem? Email <a href="mailto:contact@ofcodedev.me?subject=Anchor%20SSH%20review%20feedback">contact@ofcodedev.me</a> with your Android version and a description. Never include passwords, private keys, or sensitive terminal output.</p>
+    </section>
+  </main>
+  <footer><span>© 2026 OFCode Dev</span><span>Anchor SSH · Android early access</span><a href="/">Back to homepage</a></footer>
+</body>
+</html>
