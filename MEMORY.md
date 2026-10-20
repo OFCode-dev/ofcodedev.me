@@ -9,7 +9,8 @@ Static GitHub Pages site for Omer Faruk Bayrak (GitHub @OFCode-dev). Personal po
 - No build step — plain HTML/CSS, hand-authored, no framework.
 
 ## Structure
-- `index.html` — homepage. Sections: Hero, Screenshot → Clipboard Family, Featured Work (Quick Web Notepad), How I Think, Capabilities, Contact & Links.
+- `index.html` — homepage. Sections: Hero, Selected Work (`#work`), Open Source (`#open-source`, includes Quick Web Notepad), Screenshot → Clipboard Family, How I Think, Capabilities, Contact & Links.
+- Positioning (Oct 2026): "AI systems builder", matched to the LinkedIn headline and resume (`~/projects/linkedin/linkedin/Resume/`). Figures in Selected Work come from the resume; keep them in sync. LinkedIn: linkedin.com/in/omer-faruk-bayrak (old handle farukbayrak22 retired). Location Antalya, Türkiye.
 - `blog/` — blog "Signal & System" (renamed from earlier title 2026-08). `blog/index.html` + one post per subdirectory (e.g. `blog/how-ai-can-confidently-explain-the-wrong-answer/`). Shared `blog/blog.css`.
 - `data/dates.json` — public data endpoint at `/data/dates.json`, published 2026-07-08.
 - `anchor-ssh/` — signed Android review download page. The existing public download is 3.0.1; it is not a public Google Play production release. The owner approved publication of privacy, support and data-deletion sub-pages, matching landing-page links and the app's support address on 2026-10-18. Their shared source is the Anchor SSH app repository's `assets/legal/privacy.json` and `tool/build_legal_pages.py`; keep the app/Play support address consistent. This approval does not include a new APK, Play rollout, cloud service or billing activation.

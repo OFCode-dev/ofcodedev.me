@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>OFCode Dev | Omer Faruk Bayrak</title>
+  <title>OFCode Dev | Omer Faruk Bayrak, AI Systems Builder</title>
   <meta
     name="description"
-    content="Omer Faruk Bayrak. Independent developer building practical web tools, mobile apps, and thoughtful software."
+    content="Omer Faruk Bayrak, AI systems builder. Governed multi-agent systems, parallel AI-agent QA, LLM evaluation and open-source developer tools."
   />
 
   <style>
@@ -230,6 +230,11 @@
       margin-bottom: var(--space-xxl);
       padding-bottom: var(--space-xxl);
       border-bottom: 1px solid var(--border);
+    }
+
+    .work .featured-item {
+      margin-bottom: var(--space-xl);
+      padding-bottom: var(--space-xl);
     }
 
     .featured-item:last-child {
@@ -593,10 +598,10 @@
       <nav class="nav">
         <div class="brand">OFCode Dev</div>
         <div class="nav-links">
+          <a href="#work">Work</a>
+          <a href="#open-source">Open Source</a>
           <a href="#anchor-ssh">Anchor SSH</a>
           <a href="#clipboard-family">Extensions</a>
-          <a href="#featured">Featured</a>
-          <a href="#approach">Approach</a>
           <a href="#capabilities">Skills</a>
           <a href="/blog/">Blog</a>
           <a href="#contact">Contact</a>
@@ -612,15 +617,115 @@
         <div class="hero-content">
           <h1>Omer Faruk Bayrak</h1>
           <p class="hero-subtitle">
-            Independent developer building practical web tools, mobile apps, and thoughtful software. I focus on clarity, utility, and technical confidence.
+            AI systems builder. I design, test and run multi-agent systems that keep their evidence, review each other's work and leave the final call to a person.
           </p>
           <p class="hero-meta">
-            Current work spans browser utilities, Flutter mobile development, IT operations, and cybersecurity fundamentals. Everything I build prioritizes simplicity, reliability, and clean user experience.
+            Based in Antalya, Türkiye. I came to software from field operations and construction project work, hold an associate degree in computer programming, and publish the tools I use as open source. Open to remote, hybrid and on-site roles.
           </p>
           <div class="hero-cta">
             <a class="btn primary" href="https://github.com/OFCode-dev" target="_blank" rel="noopener">View on GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/omer-faruk-bayrak/" target="_blank" rel="noopener">LinkedIn</a>
             <a class="btn" href="mailto:contact@ofcodedev.me">Get in touch</a>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Work -->
+    <section id="work">
+      <div class="container">
+        <h2>Selected Work</h2>
+        <div class="featured work">
+          <article class="featured-item">
+            <span class="featured-label">Content systems · Softalya Yazılım</span>
+            <h3 class="featured-title">Multi-agent content rebuild for a healthcare platform</h3>
+            <p class="featured-description">
+              In the platform's five-week production phase I designed and ran an AI-assisted rebuild of its multilingual content: about 500 pages, 300 articles and 3,300+ FAQ entries. About 530 structured claims sit apart from the page text, each linked to its sources. Claude, GPT, Gemini and open-weight models reviewed each other's drafts, and clinicians approved clinical content before it was published.
+            </p>
+            <div class="featured-meta">
+              <span>Sep to Oct 2026</span>
+              <span>3,000+ review outputs</span>
+              <span>12-gate publishing model</span>
+            </div>
+          </article>
+
+          <article class="featured-item">
+            <span class="featured-label">QA · Softalya Yazılım</span>
+            <h3 class="featured-title">Parallel agent QA and a 53-hour soak test</h3>
+            <p class="featured-description">
+              For a pre-launch ride marketplace I ran about 40 agent lanes over two nights. They shared scarce Android test devices through atomic locks, and every finding needed a second reproduction before it counted. Night one gave 109 findings, 21 of them high severity, which became 70 tickets. A later 53-hour live-streamed soak test drove a booked ride with synthetic GPS on containerised Android and ended with 0 dropped frames.
+            </p>
+            <div class="featured-meta">
+              <span>Playwright</span>
+              <span>Redroid</span>
+              <span>systemd</span>
+            </div>
+            <div class="featured-links">
+              <a href="https://github.com/OFCode-dev/agent-qa-lanes" target="_blank" rel="noopener">The method, open-sourced →</a>
+            </div>
+          </article>
+
+          <article class="featured-item">
+            <span class="featured-label">Independent</span>
+            <h3 class="featured-title">Self-hosted LLM evaluation on Oracle Cloud ARM</h3>
+            <p class="featured-description">
+              I set up and benchmarked a CPU-only 35B mixture-of-experts model with llama.cpp on a 16-core, 96 GB ARM VM, then built a 159-task evaluation, 40% of it in Turkish, with pass thresholds fixed before the run. 140 of 151 tasks passed. An adversarial audit found 4 false passes, so I tightened the grader.
+            </p>
+            <div class="featured-meta">
+              <span>llama.cpp</span>
+              <span>Oracle Cloud (OCI)</span>
+              <span>Evaluation design</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Open Source -->
+    <section id="open-source">
+      <div class="container">
+        <h2>Open Source</h2>
+        <div class="projects-list">
+          <article class="project-item">
+            <h3 class="project-name">agent-qa-lanes</h3>
+            <p class="project-desc">A method for parallel AI-agent browser QA with seven evidence rules. It ships with a demo shop that has eight seeded bugs, so you can score the agents against a known answer.</p>
+            <div class="project-meta">
+              <span class="project-meta-item">Playwright &amp; axe-core</span>
+              <span class="project-meta-item">MIT</span>
+              <a href="https://github.com/OFCode-dev/agent-qa-lanes" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <h3 class="project-name">agentline</h3>
+            <p class="project-desc">A Claude Code statusline with no dependencies. It shows cost, context use, rate limits, the git branch, MCP servers and system health.</p>
+            <div class="project-meta">
+              <span class="project-meta-item">Claude Code</span>
+              <span class="project-meta-item">MIT</span>
+              <a href="https://github.com/OFCode-dev/agentline" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <h3 class="project-name">cc-yank</h3>
+            <p class="project-desc">One keypress copies Claude Code's answer to your clipboard as clean markdown instead of terminal drawing. Works over SSH through OSC 52.</p>
+            <div class="project-meta">
+              <span class="project-meta-item">Claude Code</span>
+              <span class="project-meta-item">MIT</span>
+              <a href="https://github.com/OFCode-dev/cc-yank" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <h3 class="project-name">Quick Web Notepad</h3>
+            <p class="project-desc">A plain notepad in the browser for quick drafts and temporary notes. Vanilla HTML, CSS and JavaScript, with no login and no tracking.</p>
+            <div class="project-meta">
+              <span class="project-meta-item">Web app</span>
+              <span class="project-meta-item">Zero dependencies</span>
+              <a href="https://qwnotepad.ofcodedev.me/" target="_blank" rel="noopener">Open app</a>
+              <a href="https://github.com/OFCode-dev/quick-web-notepad" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -630,7 +735,7 @@
       <div class="container">
         <h2>Screenshot → Clipboard Family</h2>
         <p class="family-intro">
-          Three browser extensions built on one promise: <strong>one click and the image is on your clipboard.</strong> No editor, no save dialog, no download, no account, no server. Each sibling captures from a different source, and they share an icon language so you can tell them apart at a glance.
+          Three browser extensions built on one promise: <strong>one click and the image is on your clipboard.</strong> No editor, no save dialog, no download, no account, no server. Each sibling captures from a different source, and they share an icon language so you can tell them apart at a glance. Together they have over 400 users and a 5.0 average from 32 ratings on the Chrome Web Store.
         </p>
         <div class="projects-list">
           <article class="project-item">
@@ -692,22 +797,6 @@
               <a class="btn" href="/anchor-ssh/">Details &amp; install guide</a>
             </div>
           </article>
-          <article class="featured-item">
-            <span class="featured-label">Web Utility</span>
-            <h3 class="featured-title">Quick Web Notepad</h3>
-            <p class="featured-description">
-              A calm, distraction-free browser-based notepad for quick drafts, temporary notes, and simple text editing. Built with vanilla HTML, CSS, and JavaScript. No login, no tracking, no complexity.
-            </p>
-            <div class="featured-meta">
-              <span>HTML / CSS / JavaScript</span>
-              <span>Web App</span>
-              <span>Zero dependencies</span>
-            </div>
-            <div class="featured-links">
-              <a href="https://qwnotepad.ofcodedev.me/" target="_blank" rel="noopener">Open app →</a>
-              <a href="https://github.com/OFCode-dev/quick-web-notepad" target="_blank" rel="noopener">GitHub →</a>
-            </div>
-          </article>
         </div>
       </div>
     </section>
@@ -721,6 +810,7 @@
             I build software with clarity as the first principle. Code should communicate intent. Interfaces should feel intentional, not accidentally complex. Users should understand what's possible without reading a manual.
           </p>
           <ul class="approach-list">
+            <li><strong>Verify before you trust.</strong> A model's answer, a passing test or a dashboard number gets checked against something independent before anyone relies on it. In field work a wrong number cost real money, and I build AI systems on the same rule.</li>
             <li><strong>Clarity first.</strong> Clean code, clear interfaces, obvious UX. If something needs explanation, simplify it.</li>
             <li><strong>Utility over novelty.</strong> Tools should solve real problems. Practicality matters more than impressiveness.</li>
             <li><strong>Careful interfaces.</strong> Whitespace is intentional. Typography serves hierarchy. Every visual choice has purpose.</li>
@@ -739,6 +829,39 @@
         <h2>Capabilities</h2>
         <div class="capabilities">
           <div class="capability-group">
+            <h3>AI Engineering</h3>
+            <ul>
+              <li>Claude Code</li>
+              <li>Multi-agent orchestration</li>
+              <li>Evaluation design</li>
+              <li>Cross-model review</li>
+              <li>llama.cpp on CPU and ARM</li>
+            </ul>
+          </div>
+
+          <div class="capability-group">
+            <h3>Testing & Delivery</h3>
+            <ul>
+              <li>Playwright & axe-core</li>
+              <li>Appium & ADB</li>
+              <li>Redroid (containerised Android)</li>
+              <li>systemd</li>
+              <li>GitHub Actions CI</li>
+            </ul>
+          </div>
+
+          <div class="capability-group">
+            <h3>Systems & Data</h3>
+            <ul>
+              <li>Oracle Cloud (OCI)</li>
+              <li>Linux</li>
+              <li>Sanity CMS</li>
+              <li>Splunk (SPL)</li>
+              <li>Bash & Python</li>
+            </ul>
+          </div>
+
+          <div class="capability-group">
             <h3>Web & Frontend</h3>
             <ul>
               <li>HTML, CSS, JavaScript</li>
@@ -746,39 +869,6 @@
               <li>Responsive design</li>
               <li>Web performance</li>
               <li>GitHub Pages</li>
-            </ul>
-          </div>
-
-          <div class="capability-group">
-            <h3>Mobile Development</h3>
-            <ul>
-              <li>Flutter framework</li>
-              <li>Android development</li>
-              <li>Swift & iOS basics</li>
-              <li>App release workflows</li>
-              <li>Local state management</li>
-            </ul>
-          </div>
-
-          <div class="capability-group">
-            <h3>IT & Security</h3>
-            <ul>
-              <li>Networking fundamentals</li>
-              <li>Help desk operations</li>
-              <li>Cybersecurity basics</li>
-              <li>SIEM & Splunk</li>
-              <li>Log analysis</li>
-            </ul>
-          </div>
-
-          <div class="capability-group">
-            <h3>Engineering Discipline</h3>
-            <ul>
-              <li>Git & version control</li>
-              <li>Problem analysis</li>
-              <li>Documentation</li>
-              <li>Testing & validation</li>
-              <li>Attention to detail</li>
             </ul>
           </div>
 
@@ -796,11 +886,11 @@
           <div class="capability-group">
             <h3>Background & Training</h3>
             <ul>
-              <li>Law & investigation</li>
+              <li>Field operations & logistics</li>
+              <li>Construction project work (AutoCAD)</li>
+              <li>Law & security sciences</li>
+              <li>Cybersecurity fundamentals</li>
               <li>Structured analysis</li>
-              <li>Attention to detail</li>
-              <li>Problem solving</li>
-              <li>Continuous learning</li>
             </ul>
           </div>
         </div>
@@ -831,9 +921,9 @@
           <div class="contact-item">
             <div class="contact-label">LinkedIn</div>
             <div class="contact-value">
-              <a href="https://www.linkedin.com/in/farukbayrak22" target="_blank" rel="noopener">linkedin.com/in/farukbayrak22</a>
+              <a href="https://www.linkedin.com/in/omer-faruk-bayrak/" target="_blank" rel="noopener">linkedin.com/in/omer-faruk-bayrak</a>
             </div>
-            <div class="contact-description">Professional background, education, and current development path.</div>
+            <div class="contact-description">Experience, education and the work I'm doing now. Open to remote, hybrid and on-site roles.</div>
           </div>
         </div>
       </div>
