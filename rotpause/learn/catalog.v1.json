@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "locale": "en",
+  "updatedAt": "2026-10-28",
+  "articles": [
+    {
+      "id": "short-video-habits",
+      "topic": "brain-rot",
+      "locale": "en",
+      "title": "Your attention is not a score",
+      "summary": "What “brain rot” does and does not mean, and one small way to notice an automatic scroll.",
+      "canonicalUrl": "https://ofcodedev.me/rotpause/learn/short-video-habits/",
+      "publishedAt": "2026-10-28",
+      "sourceCheckedAt": "2026-10-28",
+      "reviewStatus": "source_checked_not_clinically_reviewed",
+      "preparedBy": "AI-assisted editorial content prepared for OFCode",
+      "illustration": {
+        "path": "illustrations/short-video-habits.svg",
+        "alt": "A stack of short-video cards beside an open doorway, suggesting the choice to step away.",
+        "provenance": "Original code-drawn SVG for RotPause, created with AI assistance on 2026-10-28; no third-party figure or image input.",
+        "usage": "Original artwork prepared for use in RotPause app and website; no third-party figure license is being sublicensed."
+      },
+      "sections": [
+        {
+          "heading": "A phrase, not a diagnosis",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "“Brain rot” is a cultural phrase for the feeling that low-value online content is taking up too much space. Oxford’s account of the term describes a perceived effect, not a medical test. The label alone cannot tell you whether you have a health condition or what has happened to your brain.",
+              "sourceIds": [
+                "oxford"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "A count is equally limited. It can help you notice a pattern, but it cannot measure the value of a video, your intelligence or your self-control. A conversation with a friend, a useful tutorial and an automatic swipe are different experiences, even when they appear in the same feed.",
+              "sourceIds": []
+            }
+          ]
+        },
+        {
+          "heading": "What one experiment can tell us",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "In a laboratory experiment with 60 participants, researchers compared interruptions involving TikTok, Twitter, YouTube or rest. The TikTok condition performed worse on a task involving remembering an intended action. That is evidence about a specific interruption and memory task in that setting. It does not establish lasting brain damage, a diagnosis or a universal safe number of videos.",
+              "sourceIds": [
+                "chiossi"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "More broadly, a study linking heavy use and poor wellbeing does not, by that association alone, establish which caused which. Sleep, stress, existing difficulties and the kind of content can matter. Ask what a study actually measured before turning its headline into a rule for yourself.",
+              "sourceIds": []
+            }
+          ]
+        },
+        {
+          "heading": "Try one intentional stopping point",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Before opening a feed, name what you came for in a few words.",
+                "Choose one stopping point you can recognize, such as finishing a saved video.",
+                "When you reach it, look away and decide whether to continue. Continuing is still a decision."
+              ],
+              "sourceIds": []
+            },
+            {
+              "type": "paragraph",
+              "text": "This is a practical experiment, not a proven treatment. In RotPause, the 0.75-second qualification threshold and your chosen daily limit are product settings, not clinical boundaries. Counts remain estimates and quick skips stay separate. If scrolling repeatedly disrupts sleep, work or relationships, consider discussing that impact with a qualified professional rather than relying on a counter to explain it.",
+              "sourceIds": []
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "id": "oxford",
+          "title": "Brain rot added to the Oxford English Dictionary",
+          "publisher": "Oxford University Press",
+          "url": "https://corp.oup.com/news/brain-rot-added-to-the-oxford-english-dictionary/",
+          "kind": "language_reference",
+          "publishedAt": "2025-06-26"
+        },
+        {
+          "id": "chiossi",
+          "title": "Short-Form Videos Degrade Our Capacity to Retain Intentions: Effect of Context Switching on Prospective Memory",
+          "publisher": "Chiossi et al., CHI 2023",
+          "url": "https://doi.org/10.1145/3544548.3580778",
+          "kind": "primary_experiment",
+          "publishedAt": "2023-04-19"
+        }
+      ],
+      "readingTimeMinutes": 2
+    },
+    {
+      "id": "comfortable-breathing",
+      "topic": "breathing",
+      "locale": "en",
+      "title": "A breathing pause should feel comfortable",
+      "summary": "Gentle breathing, clear stopping choices, and the difference between research and RotPause’s timer settings.",
+      "canonicalUrl": "https://ofcodedev.me/rotpause/learn/comfortable-breathing/",
+      "publishedAt": "2026-10-28",
+      "sourceCheckedAt": "2026-10-28",
+      "reviewStatus": "source_checked_not_clinically_reviewed",
+      "preparedBy": "AI-assisted editorial content prepared for OFCode",
+      "illustration": {
+        "path": "illustrations/comfortable-breathing.svg",
+        "alt": "A soft circular form resting inside an open frame, with room around it and no performance gauge.",
+        "provenance": "Original code-drawn SVG for RotPause, created with AI assistance on 2026-10-28; no third-party figure or image input.",
+        "usage": "Original artwork prepared for use in RotPause app and website; no third-party figure license is being sublicensed."
+      },
+      "sections": [
+        {
+          "heading": "Begin with comfort",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "You do not have to earn a pause by completing an exercise. Sit in a supported position, relax restrictive clothing if needed and let your breathing move gently. NHS guidance emphasizes comfortable breathing without forcing depth. Its suggested exercise differs from RotPause’s timer: the source is guidance for gentle practice, not validation of our exact rhythm.",
+              "sourceIds": [
+                "nhs"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "If a hold or a long exhale feels uncomfortable, skip it or stop and return to your normal breathing. Do not try to match an animation at the expense of comfort. Use a safe resting place, never while driving or operating machinery.",
+              "sourceIds": []
+            }
+          ]
+        },
+        {
+          "heading": "Research is not a promise about this timer",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A randomized remote study compared several five-minute daily breathing practices with mindfulness meditation over a month. It reported improvements in mood, with some advantages for an exhale-focused cyclic-sighing practice. Different protocols, duration and participants limit what can be transferred to a short app exercise. That trial did not test RotPause, its 4–2–8–2 sequence or three starts per day.",
+              "sourceIds": [
+                "balban"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "RotPause provides a timer and a choice to pause. It does not diagnose anxiety, measure breathing quality or establish that a particular rhythm is suitable for you. A completed-session total describes timer use, not a health outcome.",
+              "sourceIds": []
+            }
+          ]
+        },
+        {
+          "heading": "Understand the product settings",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Each session has two seconds of preparation followed by five 16-second cycles: four seconds in, two hold, eight out, two hold. Total timer time is 82 seconds.",
+                "Up to three starts are available per local day. Stopping early still uses a start. This allowance is a product choice, not a medical dose or safety threshold.",
+                "You can stop at any time. Another kind of pause, such as putting down the phone, is also available."
+              ],
+              "sourceIds": []
+            }
+          ]
+        },
+        {
+          "heading": "Know when to stop",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Stop for dizziness, faintness, pain or unexpected shortness of breath. Ask a qualified clinician before breath-holding exercises if you are pregnant or have a significant heart, lung or other medical condition. Severe breathing difficulty or sudden or persistent chest pain needs urgent medical help through your local emergency service. This article has not been clinically reviewed; the in-app safety notice remains part of using the timer.",
+              "sourceIds": [
+                "nhs-breathlessness"
+              ]
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "id": "nhs",
+          "title": "Breathing exercises for stress",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress/",
+          "kind": "clinical_guidance",
+          "publishedAt": null
+        },
+        {
+          "id": "balban",
+          "title": "Brief structured respiration practices enhance mood and reduce physiological arousal",
+          "publisher": "Yilmaz Balban et al., Cell Reports Medicine",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9873947/",
+          "kind": "primary_trial",
+          "publishedAt": "2023-01-10"
+        },
+        {
+          "id": "nhs-breathlessness",
+          "title": "Shortness of breath",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/symptoms/shortness-of-breath/",
+          "kind": "clinical_guidance",
+          "publishedAt": null
+        }
+      ],
+      "readingTimeMinutes": 2
+    },
+    {
+      "id": "screen-comfort",
+      "topic": "eye-health",
+      "locale": "en",
+      "title": "Give your eyes a change of scene",
+      "summary": "Small screen-comfort adjustments, what the 20–20–20 reminder means, and when to seek eye care.",
+      "canonicalUrl": "https://ofcodedev.me/rotpause/learn/screen-comfort/",
+      "publishedAt": "2026-10-28",
+      "sourceCheckedAt": "2026-10-28",
+      "reviewStatus": "source_checked_not_clinically_reviewed",
+      "preparedBy": "AI-assisted editorial content prepared for OFCode",
+      "illustration": {
+        "path": "illustrations/screen-comfort.svg",
+        "alt": "A screen beside a window showing a distant hill, suggesting a change from near work to looking farther away.",
+        "provenance": "Original code-drawn SVG for RotPause, created with AI assistance on 2026-10-28; no third-party figure or image input.",
+        "usage": "Original artwork prepared for use in RotPause app and website; no third-party figure license is being sublicensed."
+      },
+      "sections": [
+        {
+          "heading": "Comfort is worth noticing",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Long stretches of close screen work can leave eyes feeling dry, tired or uncomfortable. Digital eye strain is a description of symptoms, not a diagnosis you can make from a video count. The American Academy of Ophthalmology recommends breaks, blinking and adjustments to glare, brightness and viewing position. Persistent symptoms deserve an eye-care assessment.",
+              "sourceIds": [
+                "aao"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "A phone habit and an eye symptom are related questions, but they are not interchangeable measurements. RotPause does not watch your eyes, measure blinking or tell you whether you need glasses. Its counter cannot decide when your eyes have had enough.",
+              "sourceIds": []
+            }
+          ]
+        },
+        {
+          "heading": "Use a reminder without treating it as a cure",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The 20–20–20 reminder means looking about 20 feet away for 20 seconds after 20 minutes of near work. The American Optometric Association includes it in practical screen-use guidance. It is a convenient prompt to change focus, rather than a guarantee that a precise schedule will prevent eye disease.",
+              "sourceIds": [
+                "aoa"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "A study of 29 symptomatic computer users tested reminder software over two weeks. Symptoms improved, while most measured eye-surface, tear-film and binocular outcomes did not change; symptom benefits were not maintained after reminders stopped. The small study and short follow-up do not establish a universal cure or prove that any app reminder will produce the same result.",
+              "sourceIds": [
+                "talens"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Make the next break useful",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Look away from near work to something farther away, and blink naturally.",
+                "Reduce reflections and make screen brightness comfortable relative to the room.",
+                "For a desk monitor, try a comfortable distance and a slightly downward gaze; enlarge text instead of leaning closer."
+              ],
+              "sourceIds": [
+                "aao"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "These are options to try, not a test you have to pass. If a reminder becomes another reason to keep checking your phone, use a simpler cue away from the screen. The useful question is whether the change makes your work or rest more comfortable.",
+              "sourceIds": []
+            }
+          ]
+        },
+        {
+          "heading": "Seek help when adjustments are not enough",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "If your eyes are repeatedly red, blurry, watery, light-sensitive or painful, arrange an eye-care assessment. Sudden vision loss or severe eye pain needs urgent medical attention. Do not use a break timer to delay getting help. This article is general education and has not been clinically reviewed.",
+              "sourceIds": [
+                "aao",
+                "nhs-vision"
+              ]
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "id": "aao",
+          "title": "Computers, Digital Devices, and Eye Strain",
+          "publisher": "American Academy of Ophthalmology",
+          "url": "https://www.aao.org/eye-health/tips-prevention/computer-usage",
+          "kind": "clinical_guidance",
+          "publishedAt": "2024-06-27"
+        },
+        {
+          "id": "aoa",
+          "title": "Computer vision syndrome",
+          "publisher": "American Optometric Association",
+          "url": "https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/computer-vision-syndrome",
+          "kind": "clinical_guidance",
+          "publishedAt": null
+        },
+        {
+          "id": "talens",
+          "title": "The effects of breaks on digital eye strain, dry eye and binocular vision: Testing the 20-20-20 rule",
+          "publisher": "Talens-Estarelles et al., Contact Lens and Anterior Eye",
+          "url": "https://doi.org/10.1016/j.clae.2022.101744",
+          "kind": "primary_study",
+          "publishedAt": "2022-08-10"
+        },
+        {
+          "id": "nhs-vision",
+          "title": "Vision loss",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/vision-loss/",
+          "kind": "clinical_guidance",
+          "publishedAt": null
+        }
+      ],
+      "readingTimeMinutes": 2
+    }
+  ]
+}
